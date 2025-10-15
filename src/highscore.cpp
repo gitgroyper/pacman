@@ -216,7 +216,7 @@ void HighscoreList::print() {
 
 void HighscoreList::draw(bool nameAlterable, bool highlightLast) {
 	if (!sfTitle)
-		sfTitle = Screen::getTextSurface(Screen::getVeryLargeFont(), "Highscore List", Constants::WHITE_COLOR);
+		sfTitle = Screen::getTextSurface(Screen::getVeryLargeFont(), "Cool Turds", Constants::WHITE_COLOR);
 	if (!sfPosTitle)
 		sfPosTitle = Screen::getTextSurface(Screen::getFont(), "Pos.", Constants::WHITE_COLOR);
 	if (!sfNameTitle)

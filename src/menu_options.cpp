@@ -3,9 +3,9 @@
 MenuOptions::MenuOptions():
 	Menu("Options") {
 	addMenuItem("back");
-	addMenuItem("Window 640x480", "Fullscreen");
-	addMenuItem("Music: on", "Music: off");
-	addMenuItem("Sound: on", "Sound: off");
+	addMenuItem("Stupid Small Screen", "Cool Size");
+	addMenuItem("Music: weird", "Music: poop");
+	addMenuItem("Sound: nein", "Sound: ?!/2");
 }
 
 MenuOptions::~MenuOptions() {

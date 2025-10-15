@@ -450,7 +450,7 @@ void Labyrinth::resetLevel(int level) {
 	startFruitRandomizer(true);
 	ostringstream ostrLevel;
 	if (level == 1) {
-		setInitText("Get Ready!");
+		setInitText("https://www.youtube.com/watch?v=Aq5WXmQQooo&list=RDAq5WXmQQooo&start_radio=1");
 	} else {
 		ostrLevel << "Level " << this->level->getLevelNumber();	
 		setInitText(ostrLevel.str().c_str());

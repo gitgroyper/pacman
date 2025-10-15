@@ -238,7 +238,7 @@ void Game::checkGameOver() {
 		for(int i = 0; i < Constants::TOTAL_NUM_GHOSTS; ++i)
 			Ghost::getGhostArray()[i]->setVisibility(false);
 	} else {
-		Labyrinth::getInstance()->setInitText("Get Ready!");
+		Labyrinth::getInstance()->setInitText("https://www.youtube.com/watch?v=Aq5WXmQQooo&list=RDAq5WXmQQooo&start_radio=1");
 		startOffset = Constants::START_OFFSET_2;
 	}
 }
